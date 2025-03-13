@@ -36,6 +36,8 @@ ax.set_xlim(left  =  0,  right  =  100)
 ax.set_ylim(bottom  =  0,  top  =  100)
 ```
 Buttons were added to act as input from the user and we finally have our canvas to draw polygons on.
+
+
 ![image](https://github.com/user-attachments/assets/6a5b63e1-0759-4e18-9015-27f8dbdede19)
 
 To take mouse clicks as input for different points I
@@ -59,11 +61,14 @@ def  on_click(event):
 ```
 When we run the program we will receive an interactive matplotlib scatter plot on the
 screen as shown before. We can then start providing inputs by clicking on the canvas. We can then place more points around to make a polygon. When we are done placing all the desired points on the plot we click on the draw button. 
+
+
 ![image](https://github.com/user-attachments/assets/3462453d-ccc0-44b7-bfae-b2f848d67109)
 
 
 Afterwards we will be able to add more points for the second polygon on the graph.
 Clicking the draw button will also then complete the second polygon as such
+
 ![image](https://github.com/user-attachments/assets/6f4839ee-9167-44dc-b809-aceb299726e2)
 
 
@@ -118,6 +123,7 @@ file.write(f"f {polygon_id*num_edges}\n")
 ```
 
 The script will output the following overlapped region on the scatter plot as: 
+
 ![image](https://github.com/user-attachments/assets/f3c713ad-fec0-4947-b0d8-ef573dfe6775)
 
 

@@ -36,7 +36,8 @@ ax.set_xlim(left  =  0,  right  =  100)
 ax.set_ylim(bottom  =  0,  top  =  100)
 ```
 Buttons were added to act as input from the user and we finally have our canvas to draw polygons on.
-[image for the graph]
+![image](https://github.com/user-attachments/assets/6a5b63e1-0759-4e18-9015-27f8dbdede19)
+
 To take mouse clicks as input for different points I
 defined the following function:
 ```
@@ -58,14 +59,17 @@ def  on_click(event):
 ```
 When we run the program we will receive an interactive matplotlib scatter plot on the
 screen as shown before. We can then start providing inputs by clicking on the canvas. We can then place more points around to make a polygon. When we are done placing all the desired points on the plot we click on the draw button. 
-[image of finished polygon drawing]
+![image](https://github.com/user-attachments/assets/3462453d-ccc0-44b7-bfae-b2f848d67109)
+
 
 Afterwards we will be able to add more points for the second polygon on the graph.
 Clicking the draw button will also then complete the second polygon as such
-[image of 2 finished polygon drawing]
+![image](https://github.com/user-attachments/assets/6f4839ee-9167-44dc-b809-aceb299726e2)
+
 
 We can keep adding more polygons. The final image will look like this with all the shapes that we entered:
-[Image of the final phase with all polygons]
+![image](https://github.com/user-attachments/assets/10720782-15fe-4010-bf7c-04c04749a916)
+
 
 We then take the x,y values from the polygon and plot it on the graph. Thus creating the polygon from the input points on the graph. Lastly we add a copy of the list poly to the all_polygons list that collects all the values of the polygons that are being input.
 When we are happy with the input we will press the calculate button. This will call on
@@ -114,8 +118,10 @@ file.write(f"f {polygon_id*num_edges}\n")
 ```
 
 The script will output the following overlapped region on the scatter plot as: 
-[image of final scatter plot]
+![image](https://github.com/user-attachments/assets/f3c713ad-fec0-4947-b0d8-ef573dfe6775)
+
 
 Here is a DCEL formatted text file with all the final results:
-[image of DCEL formatted text file.]
+![image](https://github.com/user-attachments/assets/30416376-59f2-4733-94bc-7a094262253a)
+
 
